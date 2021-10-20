@@ -12,7 +12,7 @@ public class Auto {
 		int c = 0;
 		for	(int i=0; i<asientos.length;i++) {
 			if(asientos[i]!=null)
-			c++;
+			c=c+1;
 		}
 		return c;
 	}

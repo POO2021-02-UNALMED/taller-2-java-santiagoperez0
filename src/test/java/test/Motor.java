@@ -13,7 +13,7 @@ public class Motor {
 	{
 		if(tipo == "electrico" || tipo == "gasolina")
 		{
-			this.tipo = tipoMotor;
+			this.tipo = tipo;
 		}
 	}
 
